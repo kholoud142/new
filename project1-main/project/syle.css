@@ -1,0 +1,60 @@
+U1{
+    list-style-type:none;
+    border:1px solid oldlace;
+    background-color: red;
+    overflow: hidden;
+
+}
+li{
+    float: left;
+}
+.nav-right{
+    float:right
+}
+ a{
+     text-decoration: royalblue;
+ }
+ li a{
+     display: grid;
+     padding-bottom: 10px;
+     padding-right: 14px;
+     padding-left: 14px;
+     padding-top: 10px;
+ }
+
+
+
+
+li a:hover{
+    background-color: blueviolet;
+}
+
+li a.active{
+    background-color: darkmagenta;
+}
+
+div{
+
+    border:5px;
+    border-style:dotted;
+    border-radius:20px;
+    box-shadow: -10px 10px 5px dimgray;
+    background-image: -moz-repeating-radial-gradient(white,blue);
+}
+
+table{
+    width:100;
+    border-collapse: collapse;
+}
+
+thead{
+    background-color: indigo;
+    counter-reset:black;
+}
+
+thead tr{
+    text-align: center;
+}
+tbody tr:nth-child(odd){
+     background-color: lightblue;
+} 
